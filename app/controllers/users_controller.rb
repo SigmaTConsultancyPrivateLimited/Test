@@ -67,4 +67,8 @@ class UsersController < ApplicationController
     def user_params
       params.require(:user).permit(:name, :age, :address, :gender)
     end
+
+    def hema
+     #checking for git purpose
+    end
 end
